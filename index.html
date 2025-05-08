@@ -1,16 +1,94 @@
-<main>
-  <section>
-    <h2>Welcome to Multilevel Modeling</h2>
-    <p>
-      Many datasets in the behavioral, social, and economic sciences have a hierarchical or nested structure. For example, students are nested within classrooms, patients are nested within hospitals, or repeated measures are nested within individuals. Traditional statistical models assume that all observations are independent, but this assumption is violated in nested data structures. Multilevel modeling—also known as hierarchical modeling or mixed-effects modeling—provides a principled way to analyze data that reflects these layers of dependence.
-    </p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Multilevel Modeling</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+    header {
+      background-color: #003366;
+      color: white;
+      padding: 1.5rem 2rem;
+      text-align: center;
+    }
+    nav ul {
+      list-style: none;
+      padding: 0;
+      margin: 1rem 0 0;
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+    }
+    nav ul li a {
+      color: #cce6ff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav ul li a:hover {
+      color: white;
+    }
+    main {
+      max-width: 800px;
+      margin: 2rem auto;
+      padding: 1rem 2rem;
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    }
+    h1 {
+      font-size: 1.8rem;
+      color: #003366;
+    }
+    h2 {
+      color: #003366;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background-color: #003366;
+      color: white;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Multilevel Modeling</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="Resources-mlm.html">Course Materials</a></li>
+      </ul>
+    </nav>
+  </header>
 
-    <p>
-      One of the key strengths of multilevel modeling is that it accounts for variation at each level of the hierarchy. Rather than collapsing across higher-level units or analyzing each group separately, multilevel models simultaneously estimate effects at both the individual and group level. This allows researchers to partition variability into within-group and between-group components and to appropriately model how predictors at different levels influence outcomes.
-    </p>
+  <main>
+    <section>
+      <h2>Welcome to Multilevel Modeling</h2>
+      <p>
+        Many datasets in the behavioral, social, and health sciences have a hierarchical or nested structure. For example, students are nested within classrooms, patients are nested within hospitals, or repeated measures are nested within individuals. Traditional statistical models assume that all observations are independent, but this assumption is violated in nested data structures. Multilevel modeling—also known as hierarchical linear modeling or mixed-effects modeling—provides a principled way to analyze data that reflects these layers of dependence.
+      </p>
 
-    <p>
-      In this workshop, we will explore both fixed effect models, which estimate a single effect that applies across all groups, and random effect models, which allow for variation in effects across groups or clusters. You'll learn when and why to include random intercepts and slopes. More importantly, you will learn how to think critically about nested data structures. Whether you're working with panel data, clustered experiments, or nested surveys, multilevel modeling equips you with tools to more accurately reflect the structure of your data and the complexity of the world it represents.
-    </p>
-  </section>
-</main>
+      <p>
+        One of the key strengths of multilevel modeling is that it accounts for variation at each level of the hierarchy. Rather than collapsing across higher-level units or analyzing each group separately, multilevel models simultaneously estimate effects at both the individual and group level. This allows researchers to partition variability into within-group and between-group components and to appropriately model how predictors at different levels influence outcomes.
+      </p>
+
+      <p>
+        In this course, we will explore both fixed effect models, which estimate a single effect that applies across all groups, and random effect models, which allow for variation in effects across groups or clusters. You'll learn when and why to include random intercepts and slopes, how to interpret cross-level interactions, and how to apply these methods using real-world datasets. Whether you're working with panel data, clustered experiments, or nested surveys, multilevel modeling equips you with tools to more accurately reflect the structure of your data and the complexity of the world it represents.
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Dan R. Schley</p>
+  </footer>
+</body>
+</html>
