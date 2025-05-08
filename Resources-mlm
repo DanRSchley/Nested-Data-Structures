@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Multilevel Modeling Resources</title>
+  <title>Course Materials – Multilevel Modeling</title>
   <link rel="stylesheet" href="style.css" />
   <style>
     body {
@@ -82,7 +82,7 @@
     <nav>
       <ul>
         <li><a href="index.html">Home</a></li>
-        <li><a href="resources.html">Course Materials</a></li>
+        <li><a href="Resources-mlm.html">Course Materials</a></li>
       </ul>
     </nav>
   </header>
